@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.Secuencial
+﻿namespace MyDTOs.MyContabilidad.Secuencial
 {
     public readonly record struct AddSecuencialDTO
     {

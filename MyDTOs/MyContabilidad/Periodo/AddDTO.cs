@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.Periodo
+﻿namespace MyDTOs.MyContabilidad.Periodo
 {
     //https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types
     //https://www.youtube.com/watch?v=-imbCoyINwA&ab_channel=PlainConcepts

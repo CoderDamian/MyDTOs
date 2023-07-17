@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.Asiento
+﻿namespace MyDTOs.MyContabilidad.Asiento
 {
     public readonly record struct PartidaDTO
     {

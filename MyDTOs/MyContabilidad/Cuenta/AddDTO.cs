@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.Cuenta
+﻿namespace MyDTOs.MyContabilidad.Cuenta
 {
     public readonly record struct AddDTO
     {

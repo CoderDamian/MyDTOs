@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.CentroCoste
+﻿namespace MyDTOs.MyContabilidad.CentroCoste
 {
     public readonly record struct UpdateCentroCostoDTO
     {

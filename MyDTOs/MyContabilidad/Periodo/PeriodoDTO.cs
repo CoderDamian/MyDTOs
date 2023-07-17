@@ -1,4 +1,4 @@
-﻿namespace MyContabilidad.DTOs.Periodo
+﻿namespace MyDTOs.MyContabilidad.Periodo
 {
     public readonly record struct PeriodoDTO
     {

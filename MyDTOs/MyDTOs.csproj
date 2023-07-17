@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MyDTOs</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>coderdamian</Authors>
+    <Company>happycodding</Company>
+    <Description>Objetos de transferencia de datos (DTO) del proyecto MyERP</Description>
+    <RepositoryUrl>https://github.com/CoderDamian/MyDTOs</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
