@@ -1,4 +1,4 @@
-﻿namespace MyEmpresa.DTO
+﻿namespace MyEmpresa.DTOs.Contribuyente
 {
     public readonly record struct AddContribuyenteDTO
     {

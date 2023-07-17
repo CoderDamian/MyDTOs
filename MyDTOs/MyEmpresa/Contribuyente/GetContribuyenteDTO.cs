@@ -1,4 +1,4 @@
-﻿namespace MyEmpresa.DTO
+﻿namespace MyEmpresa.DTOs.Contribuyente
 {
     // DDD and CQRS patterns comment: Note that it is recommended to implement immutable Commands
     // In this case, its immutability is achieved by having all the setters as init
