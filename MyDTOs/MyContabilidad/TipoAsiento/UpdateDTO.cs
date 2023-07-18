@@ -1,10 +1,10 @@
 ﻿namespace MyDTOs.MyContabilidad.TipoAsiento
 {
-    public readonly record struct UpdateTipoAsientoDTO
+    public record class UpdateTipoAsientoDTO
     {
-        public string Nombre { get; init; }
-        public string Abreviatura { get; init; }
-        public bool EsActiva { get; init; }
-        public string UserName { get; init; }
+        public string Nombre { get; set; } = string.Empty;
+        public string Abreviatura { get; set; } = string.Empty;
+        public bool EsActiva { get; set; }
+        public string UserName { get; set; } = string.Empty;
     }
 }

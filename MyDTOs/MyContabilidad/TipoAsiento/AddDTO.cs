@@ -1,9 +1,9 @@
 ﻿namespace MyDTOs.MyContabilidad.TipoAsiento
 {
-    public readonly record struct AddTipoAsientoDTO
+    public record class AddTipoAsientoDTO
     {
-        public string Descripcion { get; init; }
-        public string Abreviatura { get; init; }
-        public string UserName { get; init; }
+        public string Descripcion { get; set; } = string.Empty;
+        public string Abreviatura { get; set; } = string.Empty;
+        public string UserName { get; set; } = string.Empty;
     }
 }

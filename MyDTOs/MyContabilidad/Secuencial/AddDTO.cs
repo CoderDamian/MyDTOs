@@ -1,9 +1,9 @@
 ﻿namespace MyDTOs.MyContabilidad.Secuencial
 {
-    public readonly record struct AddSecuencialDTO
+    public record class AddSecuencialDTO
     {
-        public int Periodo_Fk { get; init; }
-        public int TipoAsiento_Fk { get; init; }
-        public string UserName { get; init; }
+        public int Periodo_Fk { get; set; }
+        public int TipoAsiento_Fk { get; set; }
+        public string UserName { get; set; } = string.Empty;
     }
 }
