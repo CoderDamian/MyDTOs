@@ -1,9 +1,9 @@
 ﻿namespace MyDTOs.MyContabilidad.CentroCoste
 {
-    public readonly record struct AddCentroCostoDTO
+    public record class AddCentroCostoDTO
     {
-        public int CentroCostoPadre { get; init; }
-        public string Nombre { get; init; }
-        public string UserName { get; init; }
+        public int CentroCostoPadre { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+        public string UserName { get; set; } = string.Empty;
     }
 }
