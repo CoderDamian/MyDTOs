@@ -1,11 +1,11 @@
 ﻿namespace MyDTOs.MyContabilidad.Asiento
 {
-    public readonly record struct AddAsientoContableDTO
+    public record class AddAsientoContableDTO
     {
-        public DateTime Fecha { get; init; } 
-        public string Glosa { get; init; } 
-        public int TipoAsientoId { get; init; }
-        public ICollection<PartidaDTO>? PartidaDTOs { get; private init; }
-        public string UserName { get; init; }
+        public DateTime Fecha { get; set; }
+        public string Glosa { get; set; } = string.Empty;
+        public int TipoAsientoId { get; set; }
+        public IList<PartidaDTO>? PartidaDTOs { get; private set; }
+        public string UserName { get; set; } = string.Empty;
     }
 }
