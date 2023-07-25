@@ -1,14 +1,12 @@
 ﻿namespace MyDTOs.MyContabilidad.Asiento
 {
-    public readonly record struct PartidaDTO
+    public record class PartidaDTO
     {
-        public int OrdenIngreso { get; init; }
-        public int CentroCosto_ID { get; init; }
-        public string CentroCosto { get; init; } 
-        public string CodigoContable_ID { get; init; }
-        public string NombreCuentaContable { get; init; }
-        public string Glosa { get; init; } 
-        public double Debe { get; init; }
-        public double Haber { get; init; }
+        public int OrdenIngreso { get; set; }
+        public int CentroCosto_ID { get; set; }
+        public int CodigoContable_ID { get; set; }
+        public string Glosa { get; set; } = string.Empty;
+        public double Debe { get; set; }
+        public double Haber { get; set; }
     }
 }
