@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>MyDTOs</PackageId>
-    <Version>1.0.8</Version>
+    <Version>1.0.10</Version>
     <Authors>coderdamian</Authors>
     <Company>happycodding</Company>
     <Description>Objetos de transferencia de datos (DTO) del proyecto MyERP</Description>
