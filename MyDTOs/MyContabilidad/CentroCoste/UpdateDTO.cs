@@ -1,8 +1,10 @@
 ﻿namespace MyDTOs.MyContabilidad.CentroCoste
 {
-    public readonly record struct UpdateCentroCostoDTO
+    public record class UpdateCentroCostoDTO
     {
-        public string Nombre { get; init; }
-        public string UserName { get; init; }
+        public int Id { get; set; }
+        public string Nombre { get; set; } = string.Empty;
+        public string User_Name { get; set; } = string.Empty;
+        public DateTime? Last_Updated_date { get; set; }
     }
 }
