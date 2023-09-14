@@ -1,11 +1,19 @@
 ﻿namespace MyDTOs.MyContabilidad.Asiento
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public record class AddAsientoContableDTO
     {
         public DateTime Fecha { get; set; }
         public string Glosa { get; set; } = string.Empty;
         public int TipoAsientoId { get; set; }
-        public IList<PartidaDTO>? PartidaDTOs { get; set; }
+        public IList<PartidaDTO> PartidaDTOs { get; set; }
         public string UserName { get; set; } = string.Empty;
+
+        public AddAsientoContableDTO()
+        {
+            this.PartidaDTOs=new List<PartidaDTO>();
+        }
     }
 }

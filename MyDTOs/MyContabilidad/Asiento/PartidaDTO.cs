@@ -1,5 +1,8 @@
 ﻿namespace MyDTOs.MyContabilidad.Asiento
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public record class PartidaDTO
     {
         public int OrdenIngreso { get; set; }
