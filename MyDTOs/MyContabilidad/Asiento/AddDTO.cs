@@ -7,13 +7,13 @@
     {
         public DateTime Fecha { get; set; }
         public string Glosa { get; set; } = string.Empty;
-        public int TipoAsientoId { get; set; }
-        public IList<PartidaDTO> PartidaDTOs { get; set; }
-        public string UserName { get; set; } = string.Empty;
+        public int Tipo_Asiento_ID { get; set; }
+        public IList<PartidaDTO> Partidas_DTO { get; set; }
+        public string User_Name { get; set; } = string.Empty;
 
         public AddAsientoContableDTO()
         {
-            this.PartidaDTOs=new List<PartidaDTO>();
+            this.Partidas_DTO = new List<PartidaDTO>();
         }
     }
 }
